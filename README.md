@@ -10,4 +10,5 @@ This tutorial provides scripts for:
 4. Generate the terraform code
 5. Run the code after converting it to 0.12 format and fixing 0-0-0-0--0 references
 
-6. After playing with the created cluster, DON'T FORGET to 'terraform destroy' to avoid AWS resources usage charges!!!
+6. Feel free to play with the created cluster, for example, terminate one of the worker nodes to see what will happen.
+7. After playing with it, DON'T FORGET to 'terraform destroy' to avoid AWS resources usage charges!!!
