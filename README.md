@@ -9,3 +9,6 @@ This tutorial provides scripts for:
 3. Create S3 state store required by terraform (with versioning and encryption enabled)
 4. Generate the terraform code
 5. Run the code after converting it to 0.12 format and fixing 0-0-0-0--0 references
+
+6. Feel free to play with the created cluster, for example, terminate one of the worker nodes to see what will happen.
+7. After playing with it, DON'T FORGET to 'terraform destroy' to avoid AWS resources usage charges!!!
