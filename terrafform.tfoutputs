@@ -1,0 +1,25 @@
+cluster_name = test-cluster.kops.learn-devops.online
+master_autoscaling_group_ids = [
+  "master-ap-southeast-1b.masters.test-cluster.kops.learn-devops.online",
+]
+master_security_group_ids = [
+  "sg-06f6125286180c82e",
+]
+masters_role_arn = arn:aws:iam::894947433232:role/masters.test-cluster.kops.learn-devops.online
+masters_role_name = masters.test-cluster.kops.learn-devops.online
+node_autoscaling_group_ids = [
+  "nodes.test-cluster.kops.learn-devops.online",
+]
+node_security_group_ids = [
+  "sg-024e1acca51dff8b8",
+]
+node_subnet_ids = [
+  "subnet-03db2a6e65ed84211",
+]
+nodes_role_arn = arn:aws:iam::894947433232:role/nodes.test-cluster.kops.learn-devops.online
+nodes_role_name = nodes.test-cluster.kops.learn-devops.online
+region = ap-southeast-1
+route_table_public_id = rtb-001ea8053db9e722f
+subnet_ap-southeast-1b_id = subnet-03db2a6e65ed84211
+vpc_cidr_block = 172.20.0.0/16
+vpc_id = vpc-0aa10a4c5b5e41c5e
