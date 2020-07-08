@@ -2,6 +2,7 @@
 # kops_4_generate_tf_code.sh
 
 # Ref: https://github.com/kubernetes/kops/blob/master/docs/getting_started/aws.md
+# This script generates kubernetes.tf and many suppoting files in data/ folder
 
 export AWS_PROFILE=kops
 DOMAIN="learn-devops.online"
