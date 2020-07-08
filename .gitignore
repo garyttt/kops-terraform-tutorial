@@ -2,4 +2,3 @@
 terraform.tfstat.d/
 data/
 terraform*
-version*.tf
