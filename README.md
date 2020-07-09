@@ -1,6 +1,6 @@
 KOPS (Ref: https://github.com/kubernetes/kops) has an option to generate terraform code (currently 0.11 format).
 
-Assumotions: you have Docker Desktop for Windows 2.3.2.1 (with WSL2 ubuntu 20.04 Linux backend), and these client tools installed in ubuntu.
+Assumotions: you have Docker Desktop for Windows 2.3.2.1 (with WSL2 ubuntu 20.04 Linux backend), and the following client tools installed in ubuntu:
 kops 1.17, terraform 0.12, awscli v2.0 and kubectl 1.18, jq 1.6.
 You have a free-tier AWS account, you have prepared a SSH public key, and you have purchased or owned a DNS domain.
 
@@ -14,4 +14,4 @@ This tutorial provides scripts for:
 4. Generate the terraform code
 5. Run the code after converting it to 0.12 format and fixing 0-0-0-0--0 references
 
-6. Feel free to explore, for example terminate one of the worker nodes to see what will happen. After playing with it, DON'T FORGET to 'terraform destroy' to avoid AWS resources usage charges!!!
+6. Feel free to explore, for example terminate one of the worker nodes to see what will happen. After playing with it, DON'T FORGET to 'terraform destroy' to avoid AWS resources usage charges!!! Note that 'terraform destroy' only removes those resources it has created. kops user/group, hosted zone and s3 bucket will have to be manually deleted.
