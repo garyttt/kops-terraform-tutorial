@@ -3,6 +3,7 @@
 
 # Ref: https://github.com/kubernetes/kops/blob/master/docs/getting_started/aws.md
 # Scenario 3: Subdomain for clusters in route53, leaving the domain at another registrar
+# Typicallu an one-time script unless HOSTED ZONE and DNS Provider site setup need to be re-done
 
 export AWS_PROFILE=kops
 DOMAIN="learn-devops.online"

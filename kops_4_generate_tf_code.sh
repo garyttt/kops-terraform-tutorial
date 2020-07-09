@@ -7,11 +7,10 @@
 export AWS_PROFILE=kops
 DOMAIN="learn-devops.online"
 HOSTED_ZONE="kops.${DOMAIN}"
-TEST_CLUSTER="test-cluster.${DOMAIN}"
 
 kops create cluster \
   --cloud=aws \
-  --name=${TEST_CLUSTER} \
+  --name=${HOSTED_ZONE} \
   --state=s3://${HOSTED_ZONE}-tfstate-store \
   --authorization=RBAC \
   --zones=ap-southeast-1a \

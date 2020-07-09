@@ -2,6 +2,7 @@
 # kops_1_create_iam_users.sh
 
 # Ref: https://github.com/kubernetes/kops/blob/master/docs/getting_started/aws.md
+# Typically an one-time script unless user and group are manuakly deleted
 
 export AWS_PROFILE=garyttt8
 AWS_USR=kops
