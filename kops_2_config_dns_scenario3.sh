@@ -5,7 +5,7 @@
 # Scenario 3: Subdomain for clusters in route53, leaving the domain at another registrar
 # Typicallu an one-time script unless HOSTED ZONE and DNS Provider site setup need to be re-done
 
-export AWS_PROFILE=kops
+export AWS_PROFILE=garyttt8
 DOMAIN="learn-devops.online"
 SUBDOMAIN="kops.${DOMAIN}"
 SUBDOMAINDOT="kops.${DOMAIN}."

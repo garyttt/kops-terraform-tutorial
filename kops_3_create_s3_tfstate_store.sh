@@ -3,7 +3,7 @@
 
 # Ref: https://github.com/kubernetes/kops/blob/master/docs/getting_started/aws.md
 
-export AWS_PROFILE=kops
+export AWS_PROFILE=garyttt8
 DOMAIN="learn-devops.online"
 SUBDOMAIN="kops.${DOMAIN}"
 REGION="ap-southeast-1"
