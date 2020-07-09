@@ -1,6 +1,8 @@
 #!/bin/bash
 # kops_5_run_tf_code.sh
 
+export AWS_PROFILE=kops
+
 # Un-comment next 3 lines to reset for next test run
 cp -p kubernetes.tf.orig kubernetes.tf
 rm -rf .terraform >/dev/null 2>&1
@@ -13,5 +15,3 @@ echo yes | terraform 0.12upgrade -force
 terraform validate
 terraform plan -out=kubernetes.tfplan
 terraform apply "kubernetes.tfplan"| tee terraform_apply.log
-
-#terraform destroy | tee terraform_destroy.log

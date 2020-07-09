@@ -24,3 +24,4 @@ kops create cluster \
   --out=. \
   --ssh-public-key=~/.ssh/ec2-kp.pub
 
+cp -p kubernetes.tf kubernetes.tf.orig
