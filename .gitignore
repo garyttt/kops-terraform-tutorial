@@ -1,3 +1,4 @@
+kubernetes.tfplan
 .terraform*
 terraform*
 data/
